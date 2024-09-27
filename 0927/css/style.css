@@ -1,0 +1,56 @@
+h1 {
+    /* 文字色 */
+    color: red;
+    /* 背景色 */
+    background-color: black;
+    /* 文字の大きさ */
+
+    font-size: 60px;
+
+    padding: 40px;
+    padding-left: 20px;
+    width:800px;
+}
+
+h3 {
+    /* 文字の揃え */
+    text-align: center;
+    /* 文字の下線 */
+    text-decoration: underline;
+}
+
+a {
+    /* 文字の下線をなくす */
+    text-decoration: none;
+    color: orange;
+
+    background-color: green;
+}
+
+p {
+    /* 枠線(up、right、bottom、left) */
+    /* 太さ、色、種類  順番はどれからでもOK*/
+    border: 10px red solid;
+    border-right: 20px solid black;
+    border-bottom: 20px black solid;
+
+    /* 内側の余白 */
+    padding: 20px;
+    padding-left: 5px;
+
+    /* 幅 */
+    width: 50%;
+
+    /* 文字を中央揃え */
+    text-align: center;
+
+    /* 外側の余白 */
+    margin:25%;
+    margin-top:100px;
+    margin-bottom: 100px;
+}
+
+img{
+    width: 340px;
+    border: 2px black solid;    
+}
