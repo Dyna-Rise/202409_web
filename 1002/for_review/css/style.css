@@ -24,6 +24,16 @@ img{
     /* 背景色を赤、文字色は白 */
     background-color: red;
     color: white;
+
+    /* 上下20px 左右40px */
+    /* padding-left:40px; */
+    /* padding-right: 40px; */
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px; */
+
+    /* ↑をひとつにまとめる */
+    /* 上 右 下 左 12時から時計回り21時で終わる*/
+    padding: 20px 40px 20px 40px;
 }
 
 .copy{
@@ -36,6 +46,10 @@ h1{
     border-left: 10px blue solid;
     /* 内側の余白 */
     padding-left: 20px;
+}
+
+#title{
+    background-color: gray;
 }
 
 ul{
