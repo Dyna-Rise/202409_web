@@ -88,6 +88,13 @@ a{
 
     /* 角を丸くする */
     border-radius: 10px;
+}
 
+header{
+    background-color: pink;
+}
 
+main{
+    width:800px;
+    margin: 40px auto 40px auto;
 }
