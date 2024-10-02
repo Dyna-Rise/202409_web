@@ -1,6 +1,12 @@
 img{
     /* 幅 */
     width: 240px;
+    /* 高さ */
+    height: 240px;
+    /* トリミングして写真をきれいに保つ */
+    object-fit:cover;
+    /* object-fitで写真のどこにフォーカスするか */
+    object-position: right;
 }
 
 h1{
