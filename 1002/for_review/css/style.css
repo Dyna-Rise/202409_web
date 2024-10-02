@@ -6,7 +6,29 @@ img{
     /* トリミングして写真をきれいに保つ */
     object-fit:cover;
     /* object-fitで写真のどこにフォーカスするか */
-    object-position: right;
+    object-position: center;
+}   
+
+.dog{
+    width: 100%;
+    /* ポジションは ①左右、②上下 の順に指定 */
+    object-position: right top;
+}
+
+.brown{
+    /* 文字色をbrownに */
+    color:brown;
+}
+
+.red{
+    /* 背景色を赤、文字色は白 */
+    background-color: red;
+    color: white;
+}
+
+.copy{
+    /* 文字を中央揃え */
+    text-align: center;
 }
 
 h1{
@@ -36,4 +58,22 @@ a{
     color: white;
     /* 文字装飾をなし（下線をなくす） */
     text-decoration: none;
+    width: 200px;
+    /* 外側の余白（上側のみ） */
+    margin-top:50px;
+    /* 中の文字が真ん中 */
+    text-align: center;
+
+    /*こんなやり方もある*/
+    /* margin-left: calc((100% - 300px) / 2); */
+    /* margin-right: calc((100% - 300px) / 2); */
+
+    /* 余白をオートで左右配分 */
+    margin-left: auto;
+    margin-right: auto;
+
+    /* 角を丸くする */
+    border-radius: 10px;
+
+
 }
