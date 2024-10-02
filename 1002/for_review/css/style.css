@@ -1,3 +1,33 @@
 img{
+    /* 幅 */
     width: 240px;
+}
+
+h1{
+    /* 枠線左のみ */
+    border-left: 10px blue solid;
+    /* 内側の余白 */
+    padding-left: 20px;
+}
+
+ul{
+    border: 1px gray dashed;
+    padding: 40px;
+    /* 文字色 */
+    color:brown;
+}
+
+li{
+    /* color:brown; */
+}
+
+a{
+    /* ディスプレイ（配置）をブロック性質にして横に来ないようにする */
+    display:block;
+    /* 背景色 */
+    background-color:black;
+    padding: 20px;
+    color: white;
+    /* 文字装飾をなし（下線をなくす） */
+    text-decoration: none;
 }
