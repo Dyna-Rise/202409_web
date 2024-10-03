@@ -98,3 +98,10 @@ main{
     width:800px;
     margin: 40px auto 40px auto;
 }
+
+footer{
+    background-color: black;
+    height: 180px;
+    color: white;
+    padding-top: 100px;
+}
