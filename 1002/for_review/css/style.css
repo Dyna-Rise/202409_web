@@ -105,3 +105,34 @@ footer{
     color: white;
     padding-top: 100px;
 }
+
+.blue{
+    color:blue;
+}
+
+.green{
+    color:green;
+}
+
+.under{
+    text-decoration: underline;
+}
+
+/* 色の指定の仕方
+・色名
+(black、white、red、green、blue)
+限りがある */
+
+/* ・カラーコード
+(#000000、#ffffff、#ff0000、#00ff00、#0000ff)
+ハッシュから始まり6ケタ(赤2ケタ、緑2ケタ、青2ケタ)
+00～ff までの2ケタの16進数(ffが一番強い色)
+光の三原色：全部の原色が合わさると白
+
+ゾロ目は省略可 00→0、ff→f、88→8
+ただし省略して良いのは赤・青・緑の要素それぞれゾロ目だった場合
+#11aaee → #1ae */
+
+/* ・RGB値
+(rgb(0,0,0)、rgb(255,255,255)、rgb(255,0,0)、rgb(0,255,0)、rgb(0,0,255))
+ */
