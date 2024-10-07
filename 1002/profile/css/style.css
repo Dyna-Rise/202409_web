@@ -1,29 +1,45 @@
 @charset "UTF-8";
 
 html {
+  /* ブラウザの設定を活かす */
+  /* ブラウザの標準 16px → 1rem*/
   font-size: 100%;
 }
+
 body {
   color: #383e45;
-  font-size: 0.9rem;
+  /* 1remはhtmlの100%(16px) */
+  font-size: .9rem;
 }
+
 a {
+  /* 下線をなくす */
   text-decoration: none;
 }
+
 img {
+  /* どんなに写真の寸法が大きいファイルでも最大の幅は親要素の幅まで */
   max-width: 100%;
 }
+
 li {
+  /* 黒丸などのマーカーをなし */
   list-style: none;
 }
+
 .site-title {
   width: 120px;
+  /* 行間 */
   line-height: 1px;
+  /* padding 上下 左右 */
   padding: 10px 0;
 }
+
+/* .site-titleの中のa */
 .site-title a {
   display: block;
 }
+
 .section-title {
   display: inline-block;
   font-size: 2rem;
@@ -31,13 +47,19 @@ li {
   margin-bottom: 60px;
   border-bottom: solid 1px #383e45;
 }
+
 .content-title {
   font-size: 1rem;
+  /* margin 上下 左右 */
   margin: 10px 0;
 }
+
+/* コンテンツの幅を絞る時によく使われるクラス名 */
 .wrapper {
+  /* 広がっても、そのコンテンツは960pxまで */
   max-width: 960px;
   margin: 0 auto 100px auto;
+  /* 親要素の幅に対しての4%分 */
   padding: 0 4%;
   text-align: center;
 }
@@ -46,11 +68,15 @@ li {
 ヘッダー
 -------------------------------------------*/
 #header {
+  /* 直属の子要素をとにかく横並びに強制 */
   display: flex;
+  /* flexの進行方向の並び */
   justify-content: space-between;
+  /* flexの進行方向とは垂直方向の並び */
   align-items: center;
   margin: 0 auto;
 }
+
 #header ul {
   display: flex;
   padding: 10px 0;
