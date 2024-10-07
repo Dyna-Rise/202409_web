@@ -81,14 +81,19 @@ li {
   display: flex;
   padding: 10px 0;
 }
+
 #header li {
   margin-left: 30px;
 }
+
 #header li a {
   color: #24292e;
 }
+
+/* 「:hover」をつけると、「マウスオーバーした時」のデザインという意味になる */
 #header li a:hover {
-  opacity: 0.7;
+  /* 透明度 0が透明、1が不透明*/
+  opacity: .7;
 }
 
 /*-------------------------------------------
@@ -97,6 +102,7 @@ Mainvisual
 #mainvisual {
   margin-bottom: 80px;
 }
+
 #mainvisual img {
   width: 100%;
   max-width: 1920px;
@@ -112,12 +118,16 @@ About
   justify-content: center;
   align-items: center;
 }
+
 #about img {
   width: 100px;
   height: 100px;
+  /* 枠の４つの角を丸める命令 */
+  /* 50%にすると正方形をまん丸 */
   border-radius: 50%;
   margin-right: 30px;
 }
+
 #about .text {
   text-align: left;
 }
@@ -137,9 +147,10 @@ Bicycle
 footer
 -------------------------------------------*/
 #footer {
-  font-size: 0.5rem;
+  font-size: .5rem;
   padding: 10px 0;
   text-align: center;
+  background:#ccc;
 }
 
 /*-------------------------------------------
