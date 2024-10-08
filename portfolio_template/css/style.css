@@ -336,3 +336,32 @@ ul,ol{
     font-size: .8rem;
 }
 
+
+/* レスポンシブCSS */
+@media screen and (max-width:600px){
+    .wrapper{
+
+    }
+
+    .mainNav ul{
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    .about_inner>div,.contact_inner>div{
+        width:80%;
+    }
+
+    .works_inner,.skillSet_inner,.profile_inner,#footer{
+        padding:0 4%;
+    }
+
+    .skillFlex{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skillFlex li{
+        width: 80%;
+    }
+}
